@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx tailwindcss-cli@latest build -o ./css/dist.css"
+    "build": "npx tailwindcss-cli@latest build ./css/styles.css -o ./css/dist.css"
   },
   "repository": {
     "type": "git",
